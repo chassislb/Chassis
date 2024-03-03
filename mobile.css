@@ -1,0 +1,65 @@
+body {
+    background-image: url('background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo {
+    width: 80px; /* Reduced size for smaller screens */
+    height: 80px; /* Reduced size for smaller screens */
+    margin: 10px auto 0; /* Increased margin for better spacing */
+    display: block;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* Reduced height for smaller screens */
+  }
+  
+  #title {
+    text-align: center;
+    font-family: "DM Serif";
+    font-size: 24px; /* Reduced font size for smaller screens */
+    font-weight: bold;
+    margin: 5px; /* Increased margin for better spacing */
+    color: #100101;
+  }
+  
+  #paragraph {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; /* Reduced font size for smaller screens */
+    font-weight: light;
+    margin: 20px; /* Increased margin for better spacing */
+  }
+  
+  #button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; /* Reduced margin-top for better positioning */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px; /* Reduced font size for smaller screens */
+    font-weight: bold;
+    color: #504e30;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #button:hover {
+    color: #Ffd700; /* New button color on hover */
+  }
+  
+  #instagram-btn {
+    display: block;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px; /* Reduced font size for smaller screens */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
