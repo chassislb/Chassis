@@ -1,0 +1,66 @@
+body {
+  background-image: url('background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 2px auto 0;
+  display: block;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+#title {
+  text-align: center;
+  font-family: "DM Serif";
+  font-size: 40px;
+  font-weight: bold;
+  margin: 2.5px;
+  color: #100101;
+}
+
+#paragraph {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: light;
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #504e30;
+  border: none;
+  cursor: pointer;
+}
+#button:hover {
+  color: #Ffd700; /* New button color on hover */
+  }
+
+#instagram-btn {
+  display: block;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
